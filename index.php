@@ -1,1 +1,1 @@
-<?php header( 'Location: /coundown.html' ) ;  ?>
+<?php include_once("countdown.html"); ?>
