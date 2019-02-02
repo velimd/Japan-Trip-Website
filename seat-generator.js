@@ -4,7 +4,7 @@ var seats = [];
 async function seatGenerator() {
 	seats = [];
 	let tempName = names.slice();
-	while (seats.length !== 5) {
+	while (seats.length !== names.length) {
 		var random = tempName[Math.floor(Math.random() * tempName.length)];
 		seats.push(random);
 		var index = tempName.indexOf(random);
